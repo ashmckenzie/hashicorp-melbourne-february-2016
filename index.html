@@ -37,7 +37,7 @@ class: center, middle
 ### Configuration data?
 ### Consul basics
 ### Vault basics
-### Our Configuration Service
+### Configuration Service
 
 ---
 
@@ -57,29 +57,18 @@ class: topic-template
 
 ## Objective
 
-* Create a service to provide access to configuration data
+* Create a service that provides access to configuration data
+* Allow fine grained access
+* Centralised and replicated
+* Ruby library and command line accessible
+* Leverage Consul now, Vault later
 
 ---
 
 layout: false
-class: class: center, middle
+class: center, middle
 
 # Configuration data?
-
----
-
-layout: true
-class: topic-template
-
-# Configuration data?
-
----
-
-## Application configuration
-
----
-
-## Infra configuration
 
 ---
 
@@ -107,7 +96,52 @@ class: topic-template
 
 ## Consul UI
 
-<img width="100%" src="./images/consul-ui-services.png" />
+---
+
+layout: false
+class: center, middle
+
+# Vault basics
+
+---
+
+# Vault basics
+
+* Provides secure storage & retrieval of secrets
+  * via command line tool & HTTP API
+* Supports many secret, auth & audit backends
+* Seal/Unseal concept
+* Supports key rotation <i class="twa twa-joy"></i>
+* Has a super convenient `-dev` mode
+
+---
+
+layout: false
+class: center, middle
+
+# Configuration Service
+
+---
+
+layout: true
+class: topic-template
+
+# Configuration Service
+
+---
+
+## Configuration Service
+
+* Ruby library
+* Command line tool
+* Supports Consul & Vault
+
+---
+
+layout: false
+class: center, middle
+
+# DEMO
 
 ---
 
